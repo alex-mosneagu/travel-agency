@@ -19,7 +19,7 @@
             margin-bottom: 30px;
             font-size: 80px;
             width: 60%;
-            font-weight: 600;
+            font-family: 'Berkshire Swash', cursive;
         }
         p{
             width: 40%;
@@ -34,5 +34,122 @@
     0% {background-size: 100% 100%;}
     50% {background-size: 180% 180%;}
     100% {background-size: 100% 100%;}
-  }
+}
   
+.about-us{
+    margin: 10vh 0px;
+    .section-title{
+        h6{
+            text-transform: uppercase;
+            font-size: 14px;
+            letter-spacing: 1.2px;
+        }
+        h2{
+            margin-bottom: 30px;
+            font-size: 80px;
+            color: #005B96;
+            font-family: 'Berkshire Swash', cursive;
+        }
+        p{
+            font-size: 14px;
+            opacity: .8;
+            margin-bottom: 50px;
+        }
+    }
+}
+
+.services-carousel{
+    margin: 5vh 0px;
+    .carousel{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .item{
+            opacity: .8;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            border-radius: 4px;
+            width: 140px;
+            border: 1px solid #005B96;
+            color: #005B96;
+            height: 90px;
+            p{
+                margin: 0;
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+.parallax{
+    margin: 18vh 0px 15vh;
+    .container-fluid{
+        padding-left: 0;
+        padding-right: 0;
+        .section-title{
+            h6{
+                text-transform: uppercase;
+                font-size: 14px;
+                letter-spacing: 1.2px;
+                color: #fff;
+                margin-bottom: 20px;
+            }
+            h2{
+                font-size: 70px;
+                color: #fff;
+                font-family: 'Berkshire Swash', cursive;
+                margin-bottom: 20px;
+            }
+            p{
+                font-size: 14px;
+                opacity: .8;
+                color: #fff;
+            }
+        }
+    }
+    .content-section{
+        background-color: #005B96;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 70vh;
+        padding-left: 30%;
+        padding-right: 15%;
+    }
+    .image-section{
+       background-image: url(../../images/parallax-1.jpg);
+       background-size: cover;
+       background-position: center center;
+       width: 105%;
+       margin-left: -5%;
+       border-radius: 20px 0px 0px 20px;
+       min-height: 70vh;
+       transform: translateY(-10%);
+       box-shadow: -5px 3px 26px rgba($color: #333, $alpha: .1);
+    }
+}
+
+
+.main-service{
+    margin: 10vh 0px;
+    .section-title{
+        h6{
+            text-transform: uppercase;
+            font-size: 14px;
+            letter-spacing: 1.2px;
+        }
+        h2{
+            margin-bottom: 30px;
+            font-size: 80px;
+            color: #005B96;
+            font-family: 'Berkshire Swash', cursive;
+        }
+        p{
+            font-size: 14px;
+            opacity: .8;
+            margin-bottom: 50px;
+        }
+    }
+}

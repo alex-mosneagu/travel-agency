@@ -4521,9 +4521,49 @@ body {
 }
 
 .btn-primary {
-  background-color: #F9B63C;
-  color: #070504;
+  background-color: #005B96;
+  color: #FFF;
   font-weight: 500;
+}
+
+.image-carousel {
+  position: relative;
+}
+.image-carousel .main-image img {
+  margin: 0px 12.5%;
+  width: 75%;
+  height: 75vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 250px;
+}
+.image-carousel .images {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  bottom: -20px;
+  right: 5%;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0px 3px 18px rgba(95, 95, 95, 0.1);
+}
+.image-carousel .images .image {
+  cursor: pointer;
+  margin: 0px 10px;
+  margin-left: -30px;
+}
+.image-carousel .images .image:first-child {
+  margin-left: 0;
+}
+.image-carousel .images .image img {
+  height: 110px;
+  width: 110px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 10px;
+  border: 5px solid white;
+  box-shadow: 0px 3px 18px rgba(95, 95, 95, 0.1);
 }
 
 header {
@@ -4594,7 +4634,7 @@ header .menu .item a {
   margin-bottom: 30px;
   font-size: 80px;
   width: 60%;
-  font-weight: 600;
+  font-family: "Berkshire Swash", cursive;
 }
 .home .section-title p {
   width: 40%;
@@ -4613,4 +4653,114 @@ header .menu .item a {
   100% {
     background-size: 100% 100%;
   }
+}
+.about-us {
+  margin: 10vh 0px;
+}
+.about-us .section-title h6 {
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 1.2px;
+}
+.about-us .section-title h2 {
+  margin-bottom: 30px;
+  font-size: 80px;
+  color: #005B96;
+  font-family: "Berkshire Swash", cursive;
+}
+.about-us .section-title p {
+  font-size: 14px;
+  opacity: 0.8;
+  margin-bottom: 50px;
+}
+
+.services-carousel {
+  margin: 5vh 0px;
+}
+.services-carousel .carousel {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.services-carousel .carousel .item {
+  opacity: 0.8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 4px;
+  width: 140px;
+  border: 1px solid #005B96;
+  color: #005B96;
+  height: 90px;
+}
+.services-carousel .carousel .item p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.parallax {
+  margin: 18vh 0px 15vh;
+}
+.parallax .container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+.parallax .container-fluid .section-title h6 {
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 1.2px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.parallax .container-fluid .section-title h2 {
+  font-size: 70px;
+  color: #fff;
+  font-family: "Berkshire Swash", cursive;
+  margin-bottom: 20px;
+}
+.parallax .container-fluid .section-title p {
+  font-size: 14px;
+  opacity: 0.8;
+  color: #fff;
+}
+.parallax .content-section {
+  background-color: #005B96;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 70vh;
+  padding-left: 30%;
+  padding-right: 15%;
+}
+.parallax .image-section {
+  background-image: url(../../images/parallax-1.jpg);
+  background-size: cover;
+  background-position: center center;
+  width: 105%;
+  margin-left: -5%;
+  border-radius: 20px 0px 0px 20px;
+  min-height: 70vh;
+  transform: translateY(-10%);
+  box-shadow: -5px 3px 26px rgba(51, 51, 51, 0.1);
+}
+
+.main-service {
+  margin: 10vh 0px;
+}
+.main-service .section-title h6 {
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 1.2px;
+}
+.main-service .section-title h2 {
+  margin-bottom: 30px;
+  font-size: 80px;
+  color: #005B96;
+  font-family: "Berkshire Swash", cursive;
+}
+.main-service .section-title p {
+  font-size: 14px;
+  opacity: 0.8;
+  margin-bottom: 50px;
 }/*# sourceMappingURL=main.css.map */
