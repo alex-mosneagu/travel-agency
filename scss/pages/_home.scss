@@ -2,9 +2,12 @@
     min-height: 100vh;
     background-image: url('../images/home.jpg');
     background-position: center center;
-    background-size: cover;
+    background-size: 100% 100%;
     display: flex;
     align-items: center;
+    animation-name: backgroundZoom;
+    animation-duration: 180s;
+    animation-iteration-count: infinite;
     .section-title{
         color: white;
         h6{
@@ -26,3 +29,10 @@
         }
     }
 }
+
+@keyframes backgroundZoom {
+    0% {background-size: 100% 100%;}
+    50% {background-size: 180% 180%;}
+    100% {background-size: 100% 100%;}
+  }
+  

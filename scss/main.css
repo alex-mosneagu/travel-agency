@@ -4575,9 +4575,12 @@ header .menu .item a {
   min-height: 100vh;
   background-image: url("../images/home.jpg");
   background-position: center center;
-  background-size: cover;
+  background-size: 100% 100%;
   display: flex;
   align-items: center;
+  animation-name: backgroundZoom;
+  animation-duration: 180s;
+  animation-iteration-count: infinite;
 }
 .home .section-title {
   color: white;
@@ -4598,4 +4601,16 @@ header .menu .item a {
   font-size: 14px;
   opacity: 0.8;
   margin-bottom: 50px;
+}
+
+@keyframes backgroundZoom {
+  0% {
+    background-size: 100% 100%;
+  }
+  50% {
+    background-size: 180% 180%;
+  }
+  100% {
+    background-size: 100% 100%;
+  }
 }/*# sourceMappingURL=main.css.map */
