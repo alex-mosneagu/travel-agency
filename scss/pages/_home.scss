@@ -153,3 +153,77 @@
         }
     }
 }
+
+.reverse-parallax{
+    margin: 18vh 0px 15vh;
+    .container-fluid{
+        padding-left: 0;
+        padding-right: 0;
+        .section-title{
+            h6{
+                text-transform: uppercase;
+                font-size: 14px;
+                letter-spacing: 1.2px;
+                color: #fff;
+                margin-bottom: 20px;
+            }
+            h2{
+                font-size: 70px;
+                color: #fff;
+                font-family: 'Berkshire Swash', cursive;
+                margin-bottom: 20px;
+            }
+            p{
+                font-size: 14px;
+                opacity: .8;
+                color: #fff;
+            }
+        }
+    }
+    .content-section{
+        background-color: #005B96;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 70vh;
+        padding-right: 30%;
+        padding-left: 15%;
+        z-index: -1;
+        position: relative;
+    }
+    .image-section{
+       background-image: url(../../images/parallax-2.jpg);
+       background-size: cover;
+       background-position: center center;
+       width: 105%;
+       z-index: 2;
+       margin-right: -5%;
+       border-radius: 0px 20px 20px 0px;
+       min-height: 70vh;
+       transform: translateY(-10%);
+       box-shadow: 5px 3px 26px rgba($color: #333, $alpha: .1);
+    }
+}
+
+
+.second-service{
+    margin: 10vh 0px;
+    .section-title{
+        h6{
+            text-transform: uppercase;
+            font-size: 14px;
+            letter-spacing: 1.2px;
+        }
+        h2{
+            margin-bottom: 30px;
+            font-size: 80px;
+            color: #005B96;
+            font-family: 'Berkshire Swash', cursive;
+        }
+        p{
+            font-size: 14px;
+            opacity: .8;
+            margin-bottom: 50px;
+        }
+    }
+}

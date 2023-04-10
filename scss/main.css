@@ -4763,4 +4763,73 @@ header .menu .item a {
   font-size: 14px;
   opacity: 0.8;
   margin-bottom: 50px;
+}
+
+.reverse-parallax {
+  margin: 18vh 0px 15vh;
+}
+.reverse-parallax .container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+.reverse-parallax .container-fluid .section-title h6 {
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 1.2px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.reverse-parallax .container-fluid .section-title h2 {
+  font-size: 70px;
+  color: #fff;
+  font-family: "Berkshire Swash", cursive;
+  margin-bottom: 20px;
+}
+.reverse-parallax .container-fluid .section-title p {
+  font-size: 14px;
+  opacity: 0.8;
+  color: #fff;
+}
+.reverse-parallax .content-section {
+  background-color: #005B96;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 70vh;
+  padding-right: 30%;
+  padding-left: 15%;
+  z-index: -1;
+  position: relative;
+}
+.reverse-parallax .image-section {
+  background-image: url(../../images/parallax-2.jpg);
+  background-size: cover;
+  background-position: center center;
+  width: 105%;
+  z-index: 2;
+  margin-right: -5%;
+  border-radius: 0px 20px 20px 0px;
+  min-height: 70vh;
+  transform: translateY(-10%);
+  box-shadow: 5px 3px 26px rgba(51, 51, 51, 0.1);
+}
+
+.second-service {
+  margin: 10vh 0px;
+}
+.second-service .section-title h6 {
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 1.2px;
+}
+.second-service .section-title h2 {
+  margin-bottom: 30px;
+  font-size: 80px;
+  color: #005B96;
+  font-family: "Berkshire Swash", cursive;
+}
+.second-service .section-title p {
+  font-size: 14px;
+  opacity: 0.8;
+  margin-bottom: 50px;
 }/*# sourceMappingURL=main.css.map */
