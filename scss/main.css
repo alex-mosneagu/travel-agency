@@ -4511,4 +4511,91 @@ body {
 
 .spacer {
   height: 50px;
+}
+
+.btn {
+  padding: 8px 24px;
+  display: inline-block;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+.btn-primary {
+  background-color: #F9B63C;
+  color: #070504;
+  font-weight: 500;
+}
+
+header {
+  padding: 20px 0px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+header::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 90px;
+  z-index: 1;
+  background: linear-gradient(0deg, transparent, rgba(0, 0, 0, 0.5));
+}
+header nav {
+  position: relative;
+  z-index: 8;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .logo {
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1.6px;
+  font-weight: 300;
+}
+header .logo span {
+  font-weight: 600;
+}
+header .menu {
+  display: flex;
+  align-items: center;
+}
+header .menu .item {
+  margin: 0px 20px;
+}
+header .menu .item a {
+  color: white;
+}
+
+.home {
+  min-height: 100vh;
+  background-image: url("../images/home.jpg");
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+.home .section-title {
+  color: white;
+}
+.home .section-title h6 {
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 1.2px;
+}
+.home .section-title h1 {
+  margin-bottom: 30px;
+  font-size: 80px;
+  width: 60%;
+  font-weight: 600;
+}
+.home .section-title p {
+  width: 40%;
+  font-size: 14px;
+  opacity: 0.8;
+  margin-bottom: 50px;
 }/*# sourceMappingURL=main.css.map */

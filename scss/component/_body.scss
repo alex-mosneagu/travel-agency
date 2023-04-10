@@ -6,3 +6,15 @@ body{
 .spacer{
     height: 50px;
 }
+
+.btn{
+    padding: 8px 24px;
+    display: inline-block;
+    border-radius: 20px;
+    font-size: 14px;
+}
+.btn-primary{
+    background-color: #F9B63C;
+    color: #070504;
+    font-weight: 500;
+}
